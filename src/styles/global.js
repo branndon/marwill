@@ -55,6 +55,7 @@ table {
 button {
 	border: 0;
 	padding: 0;
+	background: none;
 }
 
 body {
@@ -67,6 +68,8 @@ body {
 	* {
 		color: white;
 	}
+
+	&.home-page {}
 }
 `;
 

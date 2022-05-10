@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 // images
 import logo from '../../assets/images/logo.svg';
@@ -12,9 +13,9 @@ function Header() {
     <HeaderContainer>
       <ContentCenter className="header">
         <div>
-          <a href="">
+          <Link to="/">
             <img src={logo} width="152" height="39" alt="Marwill" />
-          </a>
+          </Link>
         </div>
 
         <div>
